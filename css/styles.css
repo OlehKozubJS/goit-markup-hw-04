@@ -200,7 +200,7 @@ button {
 
 .order-section {
     padding-block: 188px;
-    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/order-section-background-image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-clip: padding-box;
