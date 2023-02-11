@@ -200,7 +200,7 @@ button {
 
 .order-section {
     padding-block: 188px;
-    background: url(../images/people-office.jpg);
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-clip: padding-box;
@@ -239,7 +239,8 @@ button {
 }
 
 .advantage-cards,
-.production-cards {
+.production-cards,
+.customer-cards {
     justify-content: space-between;
     gap: 24px;
 }
@@ -253,6 +254,9 @@ button {
 }
 
 .customer-logo {
+    width: 168px;
+    height: 88px;
+    border-radius: 4px;
     border: 1px solid var(--customer-logo-color);
     border-radius: 8px;
 }
