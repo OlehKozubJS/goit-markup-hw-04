@@ -270,6 +270,7 @@ button {
 .customer-logo {
     height: 56px;
     width: 104px;
+    fill: var(--customer-logo-color);
 }
 
 .customer-logo:hover {
