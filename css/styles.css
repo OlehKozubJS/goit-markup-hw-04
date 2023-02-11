@@ -273,6 +273,10 @@ button {
     fill: var(--customer-logo-color);
 }
 
+.customer-card:hover {
+    border: 1px solid var(--hover-focus-clr);
+}
+
 .customer-logo:hover {
     fill: var(--hover-focus-clr);
 }
