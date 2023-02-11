@@ -200,9 +200,12 @@ button {
 
 .order-section {
     padding-block: 188px;
-    background-color: var(--headline-clr);
+    background: url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: padding-box;
 }
-
+/*rgba(46, 47, 66, 0.7)*/
 .order-headline {
     margin-bottom: 48px;
     text-align: center;
