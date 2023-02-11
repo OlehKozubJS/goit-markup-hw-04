@@ -269,11 +269,12 @@ button {
 
 .customer-logo {
     height: 56px;
-    width: 104px; 
+    width: 104px;   
 }
 
 .customer-logo:hover {
-
+    fill: var(--hover-focus-clr);
+    stroke: var(--hover-focus-clr);
 }
 
 
