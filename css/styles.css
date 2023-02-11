@@ -79,6 +79,7 @@ button {
     display: none;
 }
 
+
 /* Header settings*/
 
 .header-section {
@@ -193,6 +194,7 @@ button {
     color: var(--headline-clr);
 }
 
+
 /* Sections settings */
 
 .order-section {
@@ -222,7 +224,8 @@ button {
 }
 
 .advantage-section,
-.hero-section {
+.hero-section,
+.customer-section {
     padding-block: 120px;
 }
 
@@ -243,6 +246,15 @@ button {
 
 .advantage-card {
     width: 264px;
+}
+
+.customer-logo {
+    border: 1px solid var(--customer-logo-color);
+    border-radius: 8px;
+}
+
+.customer-logo:hover {
+
 }
 
 
@@ -316,7 +328,7 @@ button {
     row-gap: 48px;
 }
 
-.product-link{
+.product-link {
     line-height: 0;
 }
 
