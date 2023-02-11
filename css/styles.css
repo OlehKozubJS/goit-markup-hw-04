@@ -8,6 +8,7 @@
     --light-backgrounds-clr: #F4F4FD;
     --accent-and-footer-text-clr: #E7E9FC;
     --common-white-color: #FFFFFF;
+    --customer-logo-color:#8E8F99;
 }
 
 
@@ -36,6 +37,8 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 h1, h2, h3, p {
@@ -94,10 +97,7 @@ button {
 }
 
 .header-section .container,
-.navigation,
-.navigation-links,
-.contact-links,
-.filter-buttons {
+.navigation {
     display: flex;
     justify-content: center;
 }
@@ -233,7 +233,6 @@ button {
 
 .advantage-cards,
 .production-cards {
-    display: flex;
     justify-content: space-between;
     gap: 24px;
 }
@@ -254,7 +253,6 @@ button {
 } 
 
 .hero-cards {
-    display: flex;
     justify-content: space-between;
     gap: 24px;
 }
@@ -293,7 +291,6 @@ button {
 
 .filter-buttons {
     margin-bottom: 72px;
-    display: flex;
     gap: 24px;
 }
 
@@ -312,7 +309,6 @@ button {
 }
 
 .product-cards {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
