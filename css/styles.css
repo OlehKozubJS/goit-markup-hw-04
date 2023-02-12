@@ -410,8 +410,8 @@ footer .container {
     border: 1px solid var(--hover-focus-clr);
 }
 
-.customer-logo:hover,
-.customer-logo:focus {
+.customer-card:hover .customer-logo,
+.customer-card:focus .customer-logo {
     fill: var(--hover-focus-clr);
 }
 
