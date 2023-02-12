@@ -196,7 +196,7 @@ button {
 }
 
 
-/* Sections settings */
+/* Order section settings */
 
 .order-section {
     padding-block: 188px;
@@ -226,6 +226,9 @@ button {
 .order-service-button:focus {
     background-color: var(--hover-focus-clr);
 }
+
+
+/* Common sections settings */
 
 .advantage-section,
 .hero-section,
@@ -314,11 +317,13 @@ button {
     fill: var(--customer-logo-color);
 }
 
-.customer-card:hover {
+.customer-card:hover,
+.customer-card:focus {
     border: 1px solid var(--hover-focus-clr);
 }
 
-.customer-logo:hover {
+.customer-logo:hover,
+.customer-logo:focus {
     fill: var(--hover-focus-clr);
 }
 
