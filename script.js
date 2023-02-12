@@ -2,20 +2,20 @@ let productCards = document.getElementsByClassName("product-card");
 
 let productCardClasses =
 {
-"allFilter":       ["inherit", "inherit", "inherit", "inherit", "inherit", "inherit", "inherit", "inherit", "inherit"],
+"allFilter":       ["", "", "", "", "", "", "", "", ""],
 
-"appFilter":       ["inherit", "none",    "inherit", "none",    "none",    "none",    "none",    "none",    "none"],
+"appFilter":       ["", " none", "", " none", " none", " none", " none", " none", " none"],
 
-"marketingFilter": ["none",    "inherit", "none",    "inherit", "none",    "inherit", "none",    "none",    "none"],
+"marketingFilter": [" none", "", " none", "", " none", "", " none", " none", " none"],
 
-"designFilter":    ["none",    "none",    "none",    "none",    "inherit", "none",    "inherit", "none",    "none"],
+"designFilter":    [" none", " none", " none", " none", "", " none", "", " none", " none"],
 
-"websiteFilter":   ["none",    "none",    "none",    "none",    "none",    "none",    "none",    "inherit", "inherit"]
+"websiteFilter":   [" none", " none", " none", " none", " none", " none", " none", "", ""]
 }
 
 function classNameArrange(itemArray, classArray) {
     for (let itemIndex = 0; itemIndex < itemArray.length; ++itemIndex) {
-        itemArray[itemIndex].className = "product-card " + classArray[itemIndex];
+        itemArray[itemIndex].className = "product-card" + classArray[itemIndex];
     }
 }
 
