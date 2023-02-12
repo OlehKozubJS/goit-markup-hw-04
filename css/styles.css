@@ -220,7 +220,7 @@ button {
 }
 
 
-/* Common sections settings */
+/* Advantage and production sections settings */
 
 .advantage-section,
 .hero-section,
@@ -248,6 +248,20 @@ button {
     width: 264px;
 }
 
+.advantage-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background-color: var(--light-backgrounds-clr);
+}
+
+.advantage-icon {
+    width: 64px;
+    height: 64px;
+}
 
 /* Hero section settings */
 
