@@ -236,6 +236,8 @@ footer .container {
     background-repeat: no-repeat;
     background-position: center;
     background-clip: padding-box;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .order-headline {
@@ -378,7 +380,7 @@ footer .container {
 
 .hero-social-media-card:hover,
 .hero-social-media-card:focus {
-    background-color: var(--footer-icon-active-color);
+    background-color: var(--hover-focus-clr);
 }
 
 
@@ -449,13 +451,13 @@ footer .container {
     row-gap: 48px;
 }
 
-.product-card:hover,
-.product-card:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
 .product-link {
     line-height: 0;
+}
+
+.product-link:hover,
+.product-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .product-info {
